@@ -19,7 +19,7 @@ const ProfileCard = ({
         <div className="w-full py-12">
             <div className="text-center space-y-2 mb-8">
                 <h2 className="text-3xl font-bold text-brand-text">Your Digital Identity Card</h2>
-                <p className="text-brand-text-muted text-lg max-w-md mx-auto">
+                <p className="text-brand-text-muted text-lg">
                     A sleek, secure digital ID with everything you need for instant verification.
                 </p>
             </div>
@@ -52,10 +52,11 @@ const ProfileCard = ({
                         </div>
                     </div>
 
-                    <div>
+                    <div className="border-b pb-5">
                         <p className="text-sm text-brand-text-muted">Organisation</p>
                         <p className="text-brand-text text-sm">{organisation}</p>
                     </div>
+
                     <div className="flex justify-center pt-4">
                         <QRCodeCanvas 
                             value={profileURL}
@@ -64,6 +65,7 @@ const ProfileCard = ({
                             fgColor="#000000"
                         />
                     </div>
+                    <p className="text-sm text-center text-brand-text">Scan to verify identity</p>
                 </div>
             </div>
         </div>

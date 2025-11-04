@@ -17,10 +17,10 @@ const Home = () => {
                                 Create, store, and verify identities instantly using QR-based authentication.
                             </p>
                             <div className="flex flex-cols sm:flex-row justify-center lg:justify-start gap-4">
-                                <button className="flex items-center bg-brand-primary hover:bg-brand-primary-dark hover:scale-105 transition-transform duration-200 text-white px-6 py-2 rounded">Create your NexID
+                                <button className="flex items-center bg-brand-primary hover:bg-brand-primary-dark hover:scale-105 transition-transform duration-200 text-white text-sm px-6 py-3 rounded-xl">Create Your NexID
                                     <ArrowRight className='w-5 h-5 ml-5 '/>
                                 </button>
-                                <button className="bg-transparent hover:bg-brand-primary-dark text-brand-text hover:border-none hover:text-white border border-brand-text-muted px-6 py-2 rounded">Learn More</button>
+                                <button className="bg-transparent hover:bg-brand-primary-dark text-brand-text text-sm hover:border-none hover:text-white border border-brand-text-muted px-6 py-3 rounded-xl">Learn More</button>
                             </div>
                         </div> 
                         <div className="grid grid-cols-3 gap-8 pt-8 border-t border-border">

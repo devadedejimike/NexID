@@ -10,8 +10,8 @@ const Navbar = () => {
                     <li>About</li>
                 </ul>
                 <div className="flex items-center h-full gap-3">
-                    <button className="px-5 py-2 text-brand-text-muted rounded hover:bg-brand-primary hover:text-white transition">Sign In</button>
-                    <button className="bg-brand-primary hover:bg-brand-primary-dark text-white px-5 py-2 rounded transition">Get Started</button>
+                    <button className="px-5 py-2 text-sm py-3 text-brand-text-muted rounded-xl hover:bg-brand-primary hover:text-white transition">Sign In</button>
+                    <button className="bg-brand-primary text-sm hover:bg-brand-primary-dark text-white px-5 py-3 rounded-xl transition">Get Started</button>
                 </div>
             </div>
         </nav>
