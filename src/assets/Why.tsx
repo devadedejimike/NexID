@@ -5,7 +5,7 @@ const Why = () => {
         <div className="w-full mx-auto py-20">
             <div className="py-5">
                 <h2 className="text-brand-text text-center text-4xl font-bold">Why Choose <span className="text-brand-accent">NexID</span></h2>
-                <p className="text-xl text-brand-text-muted text-center">Experience the future of digital identity with our cutting-edge platform</p>
+                <p className="text-xl text-brand-text-muted text-center">Experience the future of digital identity that adapts to you and not the other way around</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-10">
                 <div className="w-96 mx-auto px-7 py-5 border rounded-xl flex flex-col items-start hover:bg-rose-50 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
@@ -13,7 +13,7 @@ const Why = () => {
                         <ShieldCheck className="text-white" size={40} />
                     </div>
                     <h3 className="text-xl font-semibold text-brand-text">Secure</h3>
-                    <p className="text-brand-text-muted mt-2">Bank-level encryption keeps your identity data safe and protected at all times.</p>
+                    <p className="text-brand-text-muted mt-2">Bank-level encryption ensures your identity remains protected and tamper-proof at all times.</p>
                 </div>
                 <div className="w-96 mx-auto px-7 py-5 border rounded-xl flex flex-col items-start hover:bg-rose-50 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
                     <div className="bg-brand-accent p-2 my-5 rounded flex justify-center">
@@ -31,7 +31,15 @@ const Why = () => {
                         QR code technology enables instant identity verification in seconds.
                     </p>
                 </div>
-
+                <div className="w-96 mx-auto px-7 py-5 border rounded-xl flex flex-col items-start hover:bg-rose-50 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                    <div className="bg-brand-accent rounded p-2 my-5 flex justify-center">
+                        <Zap className="text-white" size={40} />
+                    </div>
+                    <h3 className="text-xl font-semibold text-brand-text">Brand-Customizable ID Cards</h3>
+                    <p className="text-brand-text-muted mt-2">
+                        Organizations can style ID cards to match their brand — colors, logo, fields, and layout.
+                    </p>
+                </div>
             </div>
         </div>
     );
